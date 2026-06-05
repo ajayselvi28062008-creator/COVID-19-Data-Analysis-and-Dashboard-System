@@ -1,77 +1,73 @@
 # COVID-19 Data Analysis & Dashboard System
 
-## Overview
-This project analyzes real-world COVID-19 data using a Kaggle dataset. It focuses on understanding the spread of the virus, identifying trends, and visualizing insights through an interactive dashboard. The system helps in analyzing large datasets efficiently and supports better decision-making.
+## Introduction
+
+The COVID-19 Data Analysis & Dashboard System is a data analytics project that analyzes real-world COVID-19 data to understand the spread and impact of the pandemic.
+Using Exploratory Data Analysis (EDA) and interactive visualizations, the system helps identify trends in confirmed cases, deaths, recoveries, and active cases across different countries.
+The project utilizes the Kaggle COVID-19 dataset and provides meaningful insights through charts and dashboard-based analysis.
 
 ## Objectives
 
-### Specific Objectives
-- Load COVID-19 dataset from Kaggle  
-- Clean and preprocess the data  
-- Perform statistical analysis  
-- Analyze trends and patterns  
-- Build an interactive dashboard  
-- Visualize COVID-19 insights  
+* Analyze real-world COVID-19 data.
+* Study trends in confirmed, recovered, and death cases.
+* Identify the most affected countries.
+* Compare country-wise COVID statistics.
+* Build interactive visualizations for better understanding.
+* Generate insights using dashboard analytics.
 
-### Overall Objective
-To understand COVID-19 trends and provide meaningful insights using data analysis and visualization.
+## Technologies Used
 
-## Project Highlights
-- Used real-world COVID-19 dataset  
-- Selected relevant columns for analysis  
-- Cleaned and preprocessed data  
-- Identified trends and peak periods  
-- Compared country-wise data  
-- Built interactive dashboard using Plotly Dash  
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Plotly
+* Jupyter Notebook
 
-## Data Preprocessing
-- Checked missing values  
-- Converted Date column to proper format  
-- Removed duplicate records  
-- Selected required columns  
-- Ensured numerical data consistency  
+## Dataset Information
 
-## Exploratory Data Analysis (EDA)
-- Calculated total confirmed, deaths, and recovered cases  
-- Analyzed trends over time  
-- Identified peak COVID waves  
-- Compared country-wise performance  
-- Studied growth patterns  
+**Dataset Source:** Kaggle
 
-## Machine Learning Model
-- Optional extension:  
-  - Time series forecasting (ARIMA)  
-  - Regression models  
-- Can predict future trends of COVID cases  
+**Dataset Name:** Corona Virus Report
 
-## Visualization
-- Line chart: Cases over time  
-- Bar chart: Top affected countries  
-- Pie chart: Case distribution  
-- Scatter plot: Confirmed vs Deaths  
-- Heatmap: Correlation  
+## Data Analysis Process
 
-## Dashboard (Plotly Dash)
-- Interactive dashboard  
-- Country selection dropdown  
-- Date range filter  
-- Dynamic charts update  
-- Real-time visualization  
+**Data Cleaning**
 
-## Tools and Technologies
-- Python  
-- Pandas  
-- NumPy  
-- Matplotlib  
-- Seaborn  
-- Plotly  
-- Dash (Plotly Dash)  
-- Jupyter Notebook / Google Colab  
+* Missing value handling
+* Duplicate removal
+* Date format conversion
+* Column selection
 
-## Dataset
-- Source: Kaggle  
-- Name: Corona Virus Report  
-- Link: https://www.kaggle.com/datasets/imdevskp/corona-virus-report  
+**Exploratory Data Analysis**
+
+* COVID trend analysis
+* Country-wise comparison
+* Case distribution analysis
+* Correlation analysis
+
+## Visualizations
+
+### Confirmed Cases Over Time
+<img width="1089" height="648" alt="Screenshot (473)" src="https://github.com/user-attachments/assets/bc8de7ad-8552-4803-acc0-e9b4b4204ed8" />
+
+### Top 10 Affected Countries
+<img width="949" height="633" alt="Screenshot (474)" src="https://github.com/user-attachments/assets/b3b29dd0-0f96-48d9-9854-8b20263b8e9c" />
+
+### COVID Case Distribution
+<img width="559" height="564" alt="Screenshot (475)" src="https://github.com/user-attachments/assets/1300db98-ff9e-4e35-9b93-c29fb8b73f1a" />
+
+### Confirmed vs Deaths
+<img width="789" height="522" alt="Screenshot (476)" src="https://github.com/user-attachments/assets/c5af6f62-c9c8-40c9-8793-4ce61b3c41ee" />
+
+### Correlation Heatmap
+<img width="716" height="500" alt="Screenshot (477)" src="https://github.com/user-attachments/assets/cbd3c35d-b77c-4ead-aaca-70cecbe5bbb7" />
+
 
 ## Conclusion
-The analysis shows how COVID-19 spread across countries, highlights peak periods, and identifies high-risk regions. Visualization and dashboard help in understanding trends clearly and support better decision-making.# COVID-19
+
+The COVID-19 Data Analysis & Dashboard System provides valuable insights into the spread of COVID-19 through data analysis and visualization.
+By examining trends in confirmed cases, deaths, recoveries, and active cases, the project helps understand pandemic patterns and supports data-driven decision-making using interactive analytics.
+
+
